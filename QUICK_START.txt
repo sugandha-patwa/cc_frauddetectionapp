@@ -1,0 +1,158 @@
+═══════════════════════════════════════════════════════════════
+   CREDIT CARD FRAUD DETECTION SYSTEM - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+📦 STEP 1: DOWNLOAD THE FOLDER
+   ↓
+   Download the entire "fraud_detection_app" folder
+   Place it somewhere easy to find (Desktop, Downloads, etc.)
+
+
+🔧 STEP 2: RUN SETUP (ONE TIME ONLY)
+   
+   ┌─────────────────────────────────────────────────────────┐
+   │                                                         │
+   │  WINDOWS USERS:                                         │
+   │  ► Double-click: setup.bat                              │
+   │                                                         │
+   │  MAC/LINUX USERS:                                       │
+   │  ► Double-click: setup.sh                               │
+   │    (or open Terminal and run: ./setup.sh)               │
+   │                                                         │
+   └─────────────────────────────────────────────────────────┘
+   
+   ⏱️  Wait 2-3 minutes for installation...
+   
+   ✅ You'll see: "INSTALLATION SUCCESSFUL!"
+
+
+🚀 STEP 3: RUN THE APPLICATION
+   
+   ┌─────────────────────────────────────────────────────────┐
+   │                                                         │
+   │  WINDOWS USERS:                                         │
+   │  ► Double-click: run.bat                                │
+   │                                                         │
+   │  MAC/LINUX USERS:                                       │
+   │  ► Double-click: run.sh                                 │
+   │    (or open Terminal and run: ./run.sh)                 │
+   │                                                         │
+   └─────────────────────────────────────────────────────────┘
+   
+   ✅ You'll see: "Access the application at: http://127.0.0.1:5000"
+
+
+🌐 STEP 4: OPEN IN BROWSER
+   
+   Open your web browser (Chrome, Firefox, Safari, Edge)
+   
+   Go to: http://localhost:5000
+   
+   ✅ You should see the Fraud Detection System interface!
+
+
+🎯 STEP 5: TEST IT OUT
+   
+   Option A - Quick Test (Easiest):
+   ┌──────────────────────────────────────┐
+   │ 1. Click "Quick Test" in menu        │
+   │ 2. Click on any example card         │
+   │ 3. See instant fraud detection! ✨   │
+   └──────────────────────────────────────┘
+   
+   Option B - Custom Transaction:
+   ┌──────────────────────────────────────┐
+   │ 1. Stay on home page                 │
+   │ 2. Fill in transaction details       │
+   │ 3. Click "Analyze Transaction"       │
+   │ 4. View results! 📊                  │
+   └──────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════
+
+🛑 TO STOP THE APPLICATION:
+   
+   Go to the Terminal/Command Prompt window
+   Press: Ctrl + C
+   
+   The window will close and the server will stop.
+
+═══════════════════════════════════════════════════════════════
+
+📁 WHAT'S IN THE FOLDER?
+
+   fraud_detection_app/
+   ├── 📄 app.py                    ← Main application
+   ├── 🧠 fraud_detection_model.pkl ← Trained ML model
+   ├── 📋 requirements.txt          ← Dependencies list
+   ├── 🔧 setup.bat / setup.sh      ← Setup scripts
+   ├── ▶️  run.bat / run.sh          ← Run scripts
+   ├── 📖 README.md                 ← Full documentation
+   ├── 🎨 static/css/style.css      ← Styling
+   └── 📑 templates/                ← HTML pages
+       ├── index.html               ← Main form
+       ├── quick_test.html          ← Quick tests
+       ├── dashboard.html           ← Metrics
+       └── about.html               ← Project info
+
+═══════════════════════════════════════════════════════════════
+
+❓ TROUBLESHOOTING
+
+Problem: "Python not found"
+Solution: Install Python from https://python.org/downloads
+          Make sure version is 3.8 or higher
+
+Problem: Setup script won't run
+Solution: Windows - Right-click → "Run as administrator"
+          Mac/Linux - Run: chmod +x setup.sh && ./setup.sh
+
+Problem: "Port 5000 already in use"
+Solution: Edit app.py, change port from 5000 to 5001
+          Then use: http://localhost:5001
+
+Problem: Virtual environment not activating (Windows)
+Solution: Run PowerShell as admin, then run:
+          Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+═══════════════════════════════════════════════════════════════
+
+✅ SUCCESS CHECKLIST:
+
+   □ Downloaded fraud_detection_app folder
+   □ Ran setup.bat or setup.sh (one time)
+   □ Saw "INSTALLATION SUCCESSFUL!" message
+   □ Ran run.bat or run.sh
+   □ Opened http://localhost:5000 in browser
+   □ Can see the fraud detection interface
+   □ Tested with Quick Test examples
+   □ Everything works! 🎉
+
+═══════════════════════════════════════════════════════════════
+
+💡 PRO TIPS:
+
+   ⭐ Keep the Terminal/Command Prompt window open while using app
+   ⭐ Start with Quick Test to verify everything works
+   ⭐ Check Dashboard to see model performance metrics
+   ⭐ Read About page to understand the project
+   ⭐ Virtual environment (venv folder) must stay in the folder
+
+═══════════════════════════════════════════════════════════════
+
+🎓 FOR YOUR PRESENTATION:
+
+   1. Show the About page (project overview)
+   2. Demo Quick Test (3 examples)
+   3. Show Dashboard (model metrics)
+   4. Do a live custom transaction
+   5. Highlight: 99.96% accuracy, 0 false positives
+
+═══════════════════════════════════════════════════════════════
+
+                    🚀 READY TO GO! 🚀
+                    
+               Run setup → Run app → Test it!
+
+═══════════════════════════════════════════════════════════════
